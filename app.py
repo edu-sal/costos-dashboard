@@ -59,7 +59,7 @@ app.layout = html.Div([
                 html.Div([html.Span("C", className="brand-mark"), html.Span("COSTOS", className="brand-name")], className="brand"),
                 html.P("FROM SPREADSHEETS TO A CLEARER VIEW", className="eyebrow"),
                 html.H1(["A closer look at ", html.Span("the numbers.")]),
-                html.P("Explore batch costs, compare months, and see where spending is concentrated.", className="intro"),
+                html.P("Explore monthly and batch costs with a synthetic example from tanning and leather-processing analysis.", className="intro"),
             ]),
             html.Div([html.Span("WORKFLOW", className="eyebrow"), html.P("Excel  →  Python  →  Insights", className="workflow"), html.P("72 fictional batches · May–August 2026", className="period-note")], className="hero-note"),
         ], className="hero"),
@@ -104,7 +104,7 @@ app.layout = html.Div([
                 style_data_conditional=[{"if": {"row_index": "odd"}, "backgroundColor": "#FCFCFA"}],
             ),
         ], className="table-card"),
-        html.Footer([html.Span("Built with Python, pandas, Dash & Plotly."), html.Span("A public demonstration of a private Costos workflow. All values are synthetic.")]),
+        html.Footer([html.Span("Developed primarily with Codex, using cost-analysis context to guide prompts and review outputs."), html.Span("A public demonstration of a private Costos workflow. All values are synthetic.")]),
     ], className="page"),
 ])
 

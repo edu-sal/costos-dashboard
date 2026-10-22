@@ -1,12 +1,18 @@
 # Costos: a closer look at monthly costs
 
-I worked on Costos during my Curfimex internship, using Python to organize Excel records and Dash and Plotly to make the numbers easier to explore. This public demo gives you a small example of that work.
+I worked on Costos during my Curfimex internship to make Excel cost records from tanning and leather-processing operations easier to explore. Codex was my primary coding assistant. I supplied context about the company's cost records and comparison needs, refined prompts, and checked the resulting summaries and charts. This public demo gives you a small example of that work using synthetic data.
 
 The questions behind it are straightforward: How do costs change from month to month? Which materials account for most spending? How do costs compare across customers and batches?
 
 **Everything shown here is synthetic:** the customers, batches, prices, quantities, and patterns are made up. This repository contains a separate demo, with no company records or connection to company systems.
 
-I'm [Eduardo](https://github.com/edu-sal), a Statistics senior at American University. I used Codex for coding and debugging assistance on the internship app and this demo.
+I'm [Eduardo](https://github.com/edu-sal), a Statistics senior at American University. This project reflects how I use AI to help solve a practical data problem: define the question, provide the relevant context, work through the code with Codex, and review the output.
+
+## How I review AI-assisted work
+
+I start with the business question and explain what the records mean. I refine prompts as questions or errors come up, then compare the resulting calculations, tables, and charts with the source data. An output needs to make sense in the business context as well as run without errors.
+
+For this synthetic demo, the checks below test its calculation rules and Excel exports. They cover the demo's behavior; they do not establish business savings or validate private company data.
 
 ## Take a look
 
@@ -67,4 +73,4 @@ The checks cover weighted aggregation, filters, the Pareto threshold, Excel inpu
 - `assets/style.css` — dashboard styling.
 - `tests/test_analysis.py` — calculation and export checks.
 
-Built with Python, pandas, openpyxl, Dash and Plotly. Codex assisted with this public demo's implementation and debugging.
+Built with Python, pandas, openpyxl, Dash, and Plotly, with Codex as the primary coding assistant. The calculation and export checks above help assess whether the outputs match the stated rules.
