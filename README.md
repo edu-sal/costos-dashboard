@@ -1,10 +1,12 @@
-# Costos · a spreadsheet analytics demo
+# Costos: a closer look at monthly costs
 
-A public portfolio demonstration of the workflow from my private Costos app: organize spreadsheet records with Python, compare costs in a dashboard, and export the selected data to Excel.
+I worked on Costos during my Curfimex internship, using Python to organize Excel records and Dash and Plotly to make the numbers easier to explore. This public demo gives you a small example of that work.
 
-This is a focused demonstration, not a copy of the production application. Every client, batch, material price, quantity, and pattern shown here is synthetic. It contains no company records, customer details, commercial rates, or production database.
+The questions behind it are straightforward: How do costs change from month to month? Which materials account for most spending? How do costs compare across customers and batches?
 
-I'm [Eduardo](https://github.com/js0596a), a Statistics student at American University. During my Curfimex internship, I worked with Excel records in Python and built Dash and Plotly dashboards with Codex assistance. This demo gives you a way to explore that kind of workflow without accessing company data.
+**Everything shown here is synthetic:** the customers, batches, prices, quantities, and patterns are made up. This repository contains a separate demo, with no company records or connection to company systems.
+
+I'm [Eduardo](https://github.com/edu-sal), a Statistics senior at American University. I used Codex for coding and debugging assistance on the internship app and this demo.
 
 ## Take a look
 
